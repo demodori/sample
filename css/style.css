@@ -1,0 +1,289 @@
+@charset "UTF-8";
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0;
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro',
+    'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif !important;
+}
+
+body h2 {
+    width: 371px;
+    height: 48px;
+    background: url(/order/img/title01.png) no-repeat;
+    margin: 0 auto;
+}
+
+body h3 {
+    background: url(/order/img/title02.png) no-repeat;
+    width: 36px;
+    height: 232px;
+    position: relative;
+    top: 3px;
+    float: left;
+}
+
+footer {
+  clear: both;
+}
+
+input::-webkit-input-placeholder {
+ font-weight: inherit;
+ font-size: 14px;
+}
+input:-moz-placeholder {
+ font-weight: inherit;
+ font-size: 14px;
+}
+
+.cf:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.mb_llll { margin-bottom: 50px!important;}
+.mb_lll { margin-bottom: 45px!important;}
+.mb_ll { margin-bottom: 40px!important;}
+.mb_m { margin-bottom: 35px!important;}
+.mb_s { margin-bottom: 30px!important;}
+.mb_ss { margin-bottom: 25px!important;}
+.mb_sss { margin-bottom: 20px!important;}
+.mb_ssss { margin-bottom: 15px!important;}
+.mb_sssss { margin-bottom: 10px!important;}
+.mb_ssssss { margin-bottom: 5px!important;}
+
+.mt_llll { margin-top: 50px!important;}
+.mt_lll { margin-top: 45px!important;}
+.mt_ll { margin-top: 40px!important;}
+.mt_m { margin-top: 35px!important;}
+.mt_s { margin-top: 30px!important;}
+.mt_ss { margin-top: 25px!important;}
+.mt_sss { margin-top: 20px!important;}
+.mt_ssss { margin-top: 15px!important;}
+.mt_sssss { margin-top: 10px!important;}
+
+.pb_llll { padding-bottom: 50px!important;}
+.pb_lll { padding-bottom: 45px!important;}
+.pb_ll { padding-bottom: 40px!important;}
+.pb_m { padding-bottom: 35px!important;}
+.pb_s { padding-bottom: 30px!important;}
+.pb_ss { padding-bottom: 25px!important;}
+.pb_sss { padding-bottom: 20px!important;}
+.pb_ssss { padding-bottom: 15px!important;}
+.pb_sssss { padding-bottom: 10px!important;}
+
+.pt_llll { padding-top: 50px!important;}
+.pt_lll { padding-top: 45px!important;}
+.pt_ll { padding-top: 40px!important;}
+.pt_m { padding-top: 35px!important;}
+.pt_s { padding-top: 30px!important;}
+.pt_ss { padding-top: 25px!important;}
+.pt_sss { padding-top: 20px!important;}
+.pt_ssss { padding-top: 15px!important;}
+.pt_sssss { padding-top: 10px!important;}
+
+.caution {
+    color: #000;
+}
+.order-content {
+    border: solid 1px gray;
+    position: relative;
+    left: -100px;
+    width: 50%;
+    display:table-cell;
+}
+
+div.head {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.order_title {
+    font-family: "游明朝体 Light", "Yu Mincho", YuMincho, serif;
+    width: 700px;
+    border-bottom: solid 1px black;
+    color: #000;
+    padding: 0 15px 15px 0px;
+    font-size: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.order-row {
+    border: solid 1px gray;
+    width: 100%;
+    display:table;
+    clear: both;
+}
+
+.order_post {
+    border: none;
+    background: #eee;
+    font-size: 16px;
+    padding: 8px 5px;
+    margin-bottom: 5px;
+}
+
+.btn {
+    outline: none;
+    border-style: none;
+    font-family: "游明朝体 Light", "Yu Mincho", YuMincho, serif;
+    background: #000;
+    font-size: 12px;
+    color: white;
+    margin-bottom: 5px;
+    padding: 15px;
+}
+.btn:hover {
+    cursor:pointer;
+    filter: alpha(opacity=60);        /* ie lt 8 */
+    -ms-filter: "alpha(opacity=60)";  /* ie 8 */
+    -moz-opacity:0.6;                 /* FF lt 1.5, Netscape */
+    -khtml-opacity: 0.6;              /* Safari 1.x */
+    opacity:0.6;
+    zoom:1;
+}
+.filebtn {
+    font-family: "游明朝体 Light", "Yu Mincho", YuMincho, serif;
+    background: #aaa;
+    font-size: 10px;
+    color: white;
+    margin-bottom: 5px;
+    padding: 7px 12px;
+}
+.errmsg {
+    color: #FF0000;
+    padding: 8px 0;
+}
+.order #form dl {
+    padding-bottom: 27px!important;
+}
+.wrapper.input , .wrapper.cofirm {
+    padding-bottom: 100px;
+}
+.wrapper dt, .wrapper dd {
+    padding: 0 0 0 0!important;
+}
+.wrapper .form_small {
+    width: 100px;
+}
+
+.cofirm {
+}
+.cofirm dl {
+    border-bottom: solid 1px #ccc;
+    padding-top: 20px;
+}
+.cofirm dl:last-child {
+    border-bottom: none;
+}
+
+
+
+/*explain*/
+.explain {}
+.explain .text_base {
+    line-height: 1.7;
+}
+.explain .content_wrap {
+    float: right;
+    width: 720px;
+    padding-bottom: 50px;
+}
+.explain dl.contents {
+    margin-bottom: 70px;
+}
+.explain dl.last {
+    margin-bottom: 20px;
+}
+.explain dl dt.title p {
+    font-family: "游明朝体 Light", "Yu Mincho", YuMincho, serif;
+    border-bottom: solid 1px black;
+    color: #000;
+    padding: 0 0 15px 0;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.explain .caution {
+    font-size: 12px;
+}
+.explain .caution li {
+    margin-bottom: 4px;
+    line-height: 1.7;
+}
+.explain .caution li:before {
+    content: "※";
+}
+.explain .list {
+}
+.explain .list li {
+    margin-bottom: 8px;
+    list-style-type: disc;
+    margin-left: 20px;
+    line-height: 1.7;
+}
+.explain dl.contents dd {
+}
+.explain dl.contents dd dl {
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.explain dl.contents dd dl dt {
+    font-family: "游明朝体 Light", "Yu Mincho", YuMincho, serif;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.explain dl.contents dd dl dd {
+    line-height: 1.7;
+}
+
+.a_btn_wrap {
+    padding: 10px 0;
+    text-align: center;
+}
+.a_btn_wrap .a_btn {
+    font-family: "游明朝体 Light", "Yu Mincho", YuMincho, serif;
+    background: #000;
+    font-size: 12px;
+    color: white;
+    margin-bottom: 5px;
+    padding: 15px 25px;
+}
+.a_btn_wrap .a_btn:hover {
+    filter: alpha(opacity=60);        /* ie lt 8 */
+    -ms-filter: "alpha(opacity=60)";  /* ie 8 */
+    -moz-opacity:0.6;                 /* FF lt 1.5, Netscape */
+    -khtml-opacity: 0.6;              /* Safari 1.x */
+    opacity:0.6;
+    zoom:1;
+    text-decoration: none;
+}
+
+.title01 {
+    background: url('/order/img/title03.png') no-repeat top center!important;
+}
+.title02 {
+    background: url('/order/img/title04.png') no-repeat top center!important;
+}
+.title03 {
+    background: url('/order/img/title05.png') no-repeat top center!important;
+}
+.title04 {
+    background: url('/order/img/title06.png') no-repeat top center!important;
+}
