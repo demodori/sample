@@ -31,14 +31,14 @@ Order::setSession('contentsToken', $token);
 <!--[if lt IE 9]>
 <script type="text/javascript" src="../../../js/ie/html5shiv.js"></script>
 <![endif]-->
-<title>名刺注文 | 次世代素材LIMEX 株式会社TBM</title>
-<meta name="keywords" content="LIMEX,石灰石,リサイクル,エコノミー,エコロジー,新素材,ストーンペーパー,プラスチック,株式会社TBM">
-<meta name="description" content="株式会社TBMのLIMEXは、石灰石（炭酸カルシウム）を主原料に、紙やプラスチック商品の代替となり、エコロジーとエコノミーを実現する新素材です。">
+<title>注文</title>
+<meta name="keywords" content="sample, 注文">
+<meta name="description" content="これは自作の注文サンプルプログラムです。">
 
-<meta property="og:title" content="次世代素材LIMEX 株式会社TBM" />
-<meta property="og:url" content="http://tb-m.com/" />
-<meta property="og:description" content="【株式会社TBM】LIMEXは、石灰石（炭酸カルシウム）を主原料に、紙やプラスチック商品の代替となり、エコロジーとエコノミーを実現する新素材です。" />
-<meta property="og:image" content="http://tb-m.com/img/ogp.jpg" />
+<meta property="og:title" content="サンプル" />
+<meta property="og:url" content="http://www.yahoo.co.jp/" />
+<meta property="og:description" content="OGPテスト。" />
+<meta property="og:image" content="http://k.yimg.jp/images/top/sp2/cmn/logo-ns-131205.png" />
 
 <meta name="viewport" content="width=1080px, maximum-scale=1.0, user-scalable=yes">
 
