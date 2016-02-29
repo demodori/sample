@@ -3,9 +3,9 @@
  * お問い合わせ送信処理ページ
  * 中間ファイルの為、htmkはありません。
  *
- * @package    limex
+ * @package    sample
  * @subpackage order
- * @version    2015/10/15 1.0
+ * @version    2016/02/29 1.0
  * @author     yutaka.sudo
  */
 

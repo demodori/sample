@@ -2,9 +2,9 @@
 /**
  * 注文ページトップ
  *
- * @package    limex
+ * @package    sample
  * @subpackage order
- * @version    2015/10/15 1.0
+ * @version    2016/02/29 1.0
  * @author     yutaka.sudo
  */
 

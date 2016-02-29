@@ -18,7 +18,7 @@
 <meta name="viewport" content="width=1080px, maximum-scale=1.0, user-scalable=yes">
 
 <link type="text/css" rel="stylesheet" href="../css/style.css" />
-<link type="text/css" rel="stylesheet" href="./css/style.css" />
+<link type="text/css" rel="2016/02/29stylesheet" href="./css/style.css" />
 
 <script type="text/javascript" src="../js/jquery.min.js"></script>
 <script type="text/javascript" src="../js/common.js"></script>

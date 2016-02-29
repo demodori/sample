@@ -3,9 +3,9 @@
  * お問い合わせ用configファイル
  * 開発と本番で値が異なるものを列挙。
  *
- * @package    limex
+ * @package    sample
  * @subpackage Order
- * @version    2015/10/22 1.0
+ * @version    2016/02/29 1.0
  * @author     yutaka.sudo
  */
 

@@ -2,9 +2,9 @@
 /**
  * 注文処理クラス
  *
- * @package    limex
+ * @package    sample
  * @subpackage order
- * @version    2015/10/22 1.0
+ * @version    2016/02/29 1.0
  * @author     yutaka.sudo
  */
 
@@ -72,12 +72,12 @@ class Order
     /**
      * サポート側メールFROM(FROMに日本語を使用する場合は要改修)
      */
-    const SUPPORT_MAIL_FROM = '"LIMEX" <limex@limex>';
+    const SUPPORT_MAIL_FROM = '"LIMEX" <sample@sample>';
 
     /**
      * ユーザ側メールFROM
      */
-    const USER_MAIL_FROM = '"LIMEX" <limex@limex>';
+    const USER_MAIL_FROM = '"LIMEX" <sample@sample>';
 
     /**
      * upload status

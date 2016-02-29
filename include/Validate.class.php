@@ -2,9 +2,9 @@
 /**
  * お問い合わせ入力値チェック
  *
- * @package    limex
+ * @package    sample
  * @subpackage Order
- * @version    2015/10/22 1.0
+ * @version    2016/02/29 1.0
  * @author     yutaka.sudo
  */
 
