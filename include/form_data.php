@@ -2,9 +2,9 @@
 /**
  * フォームデータ
  *
- * @package    lemex
+ * @package    sample
  * @subpackage order
- * @version    2015/10/14 1.0
+ * @version    2016/02/29 1.0
  * @author     yutaka.sudo(impressive)
  */
 
